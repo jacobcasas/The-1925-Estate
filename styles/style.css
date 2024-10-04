@@ -255,6 +255,10 @@ hr {
 .btt{
   display: flex;
   justify-content: center;
+  padding: 1rem 0 ;
+}
+.btt:hover{
+  text-decoration: underline;
 }
 .btt a {
   text-decoration: none;
@@ -389,7 +393,6 @@ hr {
     justify-content: space-between;
   }
   .estate-header{
-    z-index: -1;
     display: block;
     margin: 0 auto;
   }
