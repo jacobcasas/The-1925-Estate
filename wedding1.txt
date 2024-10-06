@@ -1,7 +1,0 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aliquam non sollicitudin odio. Aenean nec lectus cursus, malesuada ligula sed,
-tincidunt felis. In vestibulum gravida purus, eget lacinia justo accumsan et.
-Curabitur ut convallis neque. Morbi suscipit commodo quam, quis imperdiet mauris
-vestibulum sed. In hac habitasse platea dictumst. Phasellus aliquam sapien feugiat mauris maximus, 
-ut vulputate augue hendrerit. Suspendisse et turpis vitae 
-est auctor imperdiet eu non odio. Sed semper bibendum sapien in semper.

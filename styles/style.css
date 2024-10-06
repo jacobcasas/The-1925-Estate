@@ -200,12 +200,43 @@ li {
 
 /* Home Page */
 
-/* Section 1 */
+/* Picture Heading */
+.image-header{
+  display: block;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  margin: 0 auto;
+  z-index: -1;
+}
 .first-pic {
   margin: 0 auto;
+  width: 100%;
   height: auto;
   border-radius: 20px;
 }
+.image-heading-text {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  text-align: center;
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .4;
+  background-color: black;
+  border-radius: 20px;
+}
+/* Section 1 */
 .pic-left {
   margin: 0 auto;
   height: auto;
@@ -228,6 +259,7 @@ hr {
   border-radius: 10px;
   color: var(--neutral-clr-400);
   background-color: var(--neutral-clr-400);
+  margin: 1rem;
 }
 /* Section 2 */
 .pic-right {
@@ -272,6 +304,13 @@ hr {
   margin: 0 auto;
   height: auto;
   border-radius: 20px;
+}
+.wedding-heading-text {
+  position: absolute;
+  top: 40%;
+  left: 33.3%;
+  text-align: center;
+  z-index: 2;
 }
 .wed-section-one {
   display: flex;
@@ -391,6 +430,7 @@ hr {
   .nav-wrapper{
     display: flex;
     justify-content: space-between;
+    z-index: 10;
   }
   .estate-header{
     display: block;
@@ -427,6 +467,15 @@ hr {
   .even-columns{
     flex-direction: column;
     text-align: center;
+  }
+  .overlay {
+    display: none;
+  }
+  .image-heading-text {
+    display: none;
+  }
+  .wedding-heading-text{
+    display: none;
   }
   .wed-section-one{
     margin: 0;
