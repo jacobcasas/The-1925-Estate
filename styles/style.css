@@ -330,8 +330,9 @@ hr {
 }
 .ffa-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: 5rem;
+  gap: 10rem;
 }
 .ffa-list li {
   padding: 2rem 0;
@@ -339,7 +340,8 @@ hr {
 }
 .ffa-list-two {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 5rem;
 }
 .ffa-list-two li {
   padding: 2rem 0;
@@ -347,14 +349,6 @@ hr {
 }
 .lead-to-contact {
   padding: 1rem 0;
-}
-.and-more {
-  text-decoration: none;
-  color: var(--neutral-clr-400);
-}
-.and-more:hover {
-  color: var(--neutral-clr-900);
-  text-decoration: underline;
 }
 
 /* Section 2 */
