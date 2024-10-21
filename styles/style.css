@@ -170,6 +170,9 @@ li {
   margin: 50vh 5rem;
   scale: 1.5;
 }
+img {
+  object-fit: cover;
+}
 /* Primary Navigation */
 .nav-wrapper {
   display: flex;
