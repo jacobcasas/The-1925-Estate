@@ -165,15 +165,6 @@ li {
 .primary-header {
   margin-top: 1rem;
 }
-#socials {
-  position: fixed;
-  top: 45vh;
-  left: 4rem;
-  transform: scale(1.1);
-}
-#instagram-icon {
-  margin-top: 2rem;
-}
 img {
   object-fit: cover;
 }
