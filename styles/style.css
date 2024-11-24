@@ -165,13 +165,40 @@ li {
 .primary-header {
   margin-top: 1rem;
 }
-#facebook-icon {
+#socials {
   position: fixed;
-  margin: 50vh 5rem;
-  scale: 1.5;
+  top: 45vh;
+  left: 4rem;
+  transform: scale(1.1);
+}
+#instagram-icon {
+  margin-top: 2rem;
 }
 img {
   object-fit: cover;
+}
+
+/*  Social Icons */
+#socials {
+  position: fixed;
+  top: 45vh;
+  left: 4rem;
+  transform: scale(1.1);
+}
+#instagram-icon-static {
+  margin-top: 2rem;
+}
+/* Footer */
+footer {
+  display: none;
+}
+#instagram-icon {
+  margin: 0;
+  transform: scale(1.04);
+}
+#facebook-icon {
+  transform: scale(1.04);
+  margin: 0;
 }
 /* Primary Navigation */
 .nav-wrapper {
@@ -448,6 +475,25 @@ hr {
 }
 .gallery-body img {
   width: 24em;
+}
+
+@media (max-width: 79em){
+  #socials {
+    display: none;
+  }
+  footer {
+    display: block;
+    background-color: var(--accent-clr-500);
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  #socials-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+  }
 }
 
 /* Smaller Screens */
