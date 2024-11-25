@@ -306,7 +306,8 @@ hr {
 .address {
   padding: 2rem 0;
 }
-.msg-me {
+.msg-me,
+.learn-more {
   color: var(--neutral-clr-100);
   background-color: var(--accent-clr-400);
   border: none;
@@ -341,7 +342,7 @@ hr {
 .wedding-heading-text {
   position: absolute;
   top: 45%;
-  left: 39.5%;
+  left: 29vw;
   text-align: center;
   z-index: 2;
 }
@@ -354,24 +355,23 @@ hr {
 .wed-section-one h2 {
   padding: 1rem 0;
 }
-.ffa-list {
+.wte-list, 
+.ffa-list,
+.wte-list-two,
+.ffa-list-two{
   display: flex;
   justify-content: center;
-  margin-left: 5rem;
+  text-align: center;
+  margin-left: 2rem;
   gap: 10rem;
-}
-.ffa-list li {
   padding: 2rem 0;
   font-size: var(--fs-body);
 }
-.ffa-list-two {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
+.ffa-list {
+  margin-left: 0;
 }
-.ffa-list-two li {
-  padding: 2rem 0;
-  font-size: var(--fs-body);
+.ffa-list-two{
+  margin-right: 3.5rem;
 }
 .lead-to-contact {
   padding: 1rem 0;
