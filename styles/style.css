@@ -373,8 +373,12 @@ hr {
 .ffa-list-two{
   margin-right: 3.5rem;
 }
+.package-intro {
+  margin-bottom: 1rem;
+}
 .lead-to-contact {
   padding: 1rem 0;
+  margin-top: 3rem;
 }
 
 /* Section 2 */
