@@ -12,11 +12,13 @@
     --ff-heading: var(--ff-primary);
     --ff-body: var(--ff-primary);
 
-    --fs-accent: 1rem;
+    --fs-small-text: 0.9rem;
+    --fs-accent: 1.05rem;
     --fs-body: 1.125rem;
     --fs-bbt: 1.25rem;
-    --fs-subheading: 2rem;
-    --fs-heading: 2.5rem;
+    --fs-subheading-2: 2rem;
+    --fs-subheading: 2.4rem;
+    --fs-heading: 2.8rem;
 
     --fw-400: 400;
     --fw-700: 700;
@@ -115,7 +117,15 @@ select {
   gap: 3rem;
   line-height: 1.8rem;
 }
-
+.underline {
+  text-decoration: underline var(--neutral-clr-900);
+}
+.padding-1 {
+  padding: 0 0 1rem;
+}
+.padding-2{
+  padding: 1rem 0;
+}
 .text-primary-900{
   color: var(--neutral-clr-900);
 }
@@ -137,9 +147,12 @@ select {
 
 .fs-heading{font-size: var(--fs-heading);}
 .fs-subheading{font-size: var(--fs-subheading);}
+.fs-subheading-2{font-size: var(--fs-subheading-2);}
 .fs-btt{font-size: var(--fs-bbt);}
 .fs-body{font-size: var(--fs-body);}
-.fs-accent{font-size:var(--fs-accent);}
+.fs-accent{font-size: var(--fs-accent);}
+.fs-small-text{font-size: var(--fs-small-text);}
+
 
 .ff-heading{font-family: var(--ff-heading) ;}
 .ff-subheading{font-family: var(--ff-heading);}
@@ -470,6 +483,19 @@ hr {
 }
 .gallery-body img {
   width: 24em;
+}
+
+/* Package Information Page */
+
+#packages-container {
+  text-align: center;
+  padding-top: 2rem;
+}
+.packages-list {
+  list-style: inside;
+}
+.packages-list > li {
+  font-size: var(--fs-body);
 }
 
 @media (max-width: 79em){
