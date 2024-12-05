@@ -120,6 +120,9 @@ select {
 .underline {
   text-decoration: underline var(--neutral-clr-900);
 }
+.italic {
+  font-style: italic;
+}
 .padding-1 {
   padding: 0 0 1rem;
 }
@@ -290,6 +293,7 @@ footer {
 }
 .about-estate {
   padding: .5rem 0 1rem;
+  line-height: 1;
 }
 .about-links a {
   text-decoration: none;
@@ -315,6 +319,9 @@ hr {
 }
 .left-text {
   margin-top: 3rem;
+}
+.lets-talk {
+  line-height: 1;
 }
 .address {
   padding: 2rem 0;
