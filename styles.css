@@ -361,10 +361,17 @@ hr {
 }
 .wedding-heading-text {
   position: absolute;
-  top: 45%;
-  left: 29vw;
-  text-align: center;
+  top: 40%;
+  left: 36.5%;
   z-index: 2;
+}
+@media (max-width: 1024px) {
+  .wedding-heading-text {
+    left: 34%;
+  }
+  .image-heading-text {
+    left: 37%;
+  }
 }
 .wed-section-one {
   display: flex;
@@ -494,17 +501,40 @@ hr {
 
 /* Package Information Page */
 
+#packages-heading {
+  margin-bottom: 2rem;
+}
 #packages-container {
   text-align: center;
   padding-top: 2rem;
 }
-.packages-list {
+#included-text {
+  align-self: center;
+}
+.packages-list-left {
   list-style: inside;
+  text-align: left;
 }
-.packages-list > li {
+.packages-list-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3rem;
+}
+.packages-list-right > li:last-child {
+  grid-column: span 2;
+  justify-self: right;
+  padding-right: 2rem;
+}
+.packages-list-left > li,
+.packages-list-right > li {
   font-size: var(--fs-body);
+  line-height: 2.8;
 }
-
+#golden-package-img-1 {
+  margin-right: 2rem;
+  width: 33rem;
+  border-radius: 25px;
+}
 @media (max-width: 79em){
   #socials {
     display: none;
