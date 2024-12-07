@@ -354,7 +354,7 @@ footer {
 }
 .gallery-link a {
   text-decoration: none;
-  color: var(--neutral-clr-400);
+  color: var(--accent-clr-400);
 }
 .gallery-link a:hover {
   text-decoration: underline;
@@ -500,9 +500,9 @@ hr {
 }
 
 /* Contact Page */
-.contact-heading{
+.contact-heading {
   text-align: center;
-  padding: .5rem 0;
+  margin-top: 3rem;
 }
 .submit-btn {
   color: var(--neutral-clr-100);
@@ -553,18 +553,27 @@ hr {
 .gallery-header {
   text-align: center;
 }
+.gallery-subheader {
+  text-decoration: underline;
+  margin-left: 7rem;
+}
 .gallery-body {
   display: flex;
   flex-wrap: wrap;
-  /* width: 80vw; */
   padding-top: 2rem;
   justify-content: center;
-  gap: .3rem;
+  gap: .5rem;
 }
 .gallery-body img {
   width: 24em;
+  border-radius: 20px;
 }
-
+@media (max-width: 50em) {
+  .gallery-subheader {
+    text-align: center;
+    margin-left: 0;
+  }
+}
 /* Package Information Page */
 
 #packages-heading {
