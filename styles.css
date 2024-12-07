@@ -140,6 +140,9 @@ select {
 .padding-2{
   padding: 1rem 0;
 }
+.padding-3 {
+  padding: 2rem 0;
+}
 .text-primary-900{
   color: var(--neutral-clr-900);
 }
@@ -400,7 +403,8 @@ hr {
   border-radius: 10px;
   padding: .7rem 1.5rem;
 }
-.msg-me:hover {
+.msg-me:hover,
+.learn-more:hover {
   cursor: pointer;
   background-color: var(--accent-clr-500);
 }
@@ -609,6 +613,14 @@ hr {
   display: flex;
   align-items: center;
   padding-bottom: 4rem;
+}
+#contact-link a {
+  text-decoration: none;
+  color: var(--accent-clr-400);
+}
+#contact-link a:hover {
+  text-decoration: underline;
+  color: var(--neutral-clr-900);
 }
 @media (max-width: 79em){
   #socials {
