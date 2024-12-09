@@ -544,6 +544,14 @@ hr {
 .section-two-subhead {
   padding-bottom: 1rem;
 }
+#airbnb-link a{
+  text-decoration: none;
+  color: var(--accent-clr-500);
+}
+#airbnb-link a:hover {
+  text-decoration: underline;
+  color: var(--neutral-clr-900);
+}
 
 /* Contact Page */
 .contact-heading {
@@ -650,6 +658,13 @@ hr {
 #package-img-1 { 
   width: 50rem;
   border-radius: 25px;
+}
+.addon-heading {
+  display: flex;
+  gap: .4rem;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: 4rem;
 }
 .closing-statement {
   display: flex;
