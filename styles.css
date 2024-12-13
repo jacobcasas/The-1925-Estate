@@ -209,6 +209,12 @@ img {
 #instagram-icon-static {
   margin-top: 2rem;
 }
+#instagram-icon {
+  display: none;
+}
+#facebook-icon {
+  display: none;
+}
 @media (max-width: 90em) {
   #socials {
     left: 1rem;
@@ -232,20 +238,13 @@ img {
     gap: 2rem;
     margin: 0 auto;
   }
+  #instagram-icon {
+    display: block;
+  }
+  #facebook-icon {
+    display: block;
+  }
 }
-/* Footer */
-footer {
-  display: none;
-}
-#instagram-icon {
-  margin: 0;
-  transform: scale(1.04);
-}
-#facebook-icon {
-  transform: scale(1.04);
-  margin: 0;
-}
-
 /* Picture Slideshow */
 .slideshow {
     position: relative;
@@ -805,4 +804,3 @@ hr {
     gap: 1.4rem;
   }
 }
-
