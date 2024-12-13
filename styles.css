@@ -794,12 +794,12 @@ hr {
     width: 14em;
     margin: 0 auto;
   }
-  .ffa-list {
+  .ffa-list, .wte-list {
     flex-direction: column;
     margin: 0;
     gap: 1.2rem;
   }
-  .ffa-list-two {
+  .ffa-list-two, .wte-list-two {
     flex-direction: column;
     gap: 1.4rem;
   }
