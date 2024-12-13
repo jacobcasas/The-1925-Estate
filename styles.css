@@ -798,9 +798,11 @@ hr {
   .ffa-list {
     flex-direction: column;
     margin: 0;
+    gap: 1.2rem;
   }
   .ffa-list-two {
     flex-direction: column;
+    gap: 1.4rem;
   }
 }
 
