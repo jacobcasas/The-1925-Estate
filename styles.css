@@ -1,4 +1,6 @@
 :root{
+  line-height: normal;
+
     --primary-clr-200: hsl(37, 38%, 87%);
     --accent-clr-400: hsl(35, 30%, 52%);
     --accent-clr-500: hsl(35, 29%, 36%);
@@ -185,6 +187,13 @@ li {
   font-size: var(--fs-accent);
   font-weight: var(--fw-700);
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .container {
   --max-width: 1110px;
   --padding: 2rem;
@@ -645,6 +654,13 @@ hr {
   width: 24em;
   border-radius: 20px;
 }
+
+.gallery-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
 @media (max-width: 50em) {
   .gallery-subheader {
     text-align: center;
